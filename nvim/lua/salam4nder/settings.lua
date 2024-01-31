@@ -1,0 +1,24 @@
+local set = vim.opt
+
+set.fileencoding = 'utf-8' 
+set.relativenumber = true
+set.cursorline = true
+set.number = true
+set.spelllang = 'en_us'
+set.clipboard = 'unnamedplus'
+set.autoindent = true
+set.ruler = true 
+set.scrolloff = 8
+set.tabstop = 4
+set.softtabstop = 4
+set.shiftwidth = 4
+set.expandtab = true
+set.smartindent = true 
+set.autochdir = true
+set.hlsearch = true
+set.incsearch = true
+set.ignorecase = true
+set.hidden = true
+set.termguicolors = true  
+set.swapfile = false
+-- set.scrolloff=999
