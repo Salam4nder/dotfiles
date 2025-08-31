@@ -3,6 +3,7 @@ local opts = {noremap = true, silent = true}
 
 -- New tab
 map('n', '<leader><C-i>', '<Cmd>tab split<CR>', opts)
+map('n', '<leader>t', ':ToggleTerm size=20 dir= . direction=horizontal name=desktop<CR>', opts)
 
 -- Windows
 map('n', '<C-h>', '<cmd>:wincmd h<CR>', opts)
